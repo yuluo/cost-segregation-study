@@ -167,6 +167,50 @@ Use the Write tool to create this file with relative path from project root.
 
 Report the file location to the user after saving.
 
+### 8. Update Progress Tracker
+
+After saving the quiz results, automatically update `progress.json` to track learning progress:
+
+**Steps**:
+
+1. **Read progress.json** from project root
+2. **Parse the topic** to extract module and subsection:
+   - Topic `1.1` → Module `"01"`, Subsection `"1.1"`
+   - Topic `2.3` → Module `"02"`, Subsection `"2.3"`
+   - Topic `5.10` → Module `"05"`, Subsection `"5.10"`
+3. **Navigate to the correct location**: `modules[moduleNum].subsections[subsectionNum]`
+4. **Update the subsection data**:
+   - `currentScore`: Set to the quiz score (0-100)
+   - `lastUpdated`: Set to current ISO 8601 timestamp (e.g., "2026-02-01T14:30:22Z")
+   - `quizHistory`: Add new entry to the array:
+     ```json
+     {
+       "date": "2026-02-01T14:30:22Z",
+       "score": 85,
+       "quizFile": ".claude/quizzes/quiz-1.1-2026-02-01-143022.md"
+     }
+     ```
+5. **Update metadata**: Set `metadata.lastModified` to current timestamp
+6. **Write updated progress.json** back to file
+
+**Important**:
+- Use Read tool to load progress.json
+- Parse JSON content
+- Update the specific subsection data
+- Preserve all other data unchanged
+- Use Write tool to save updated progress.json with proper formatting (2-space indentation)
+
+**Error Handling**:
+- If progress.json doesn't exist, inform user and continue
+- If JSON parsing fails, log error and continue
+- If subsection not found in progress.json, log warning and continue
+
+**User Communication**:
+After updating progress.json, display:
+```
+✓ Progress updated: [Topic] score saved as [score]/100
+```
+
 ## Implementation Notes
 
 **Path Strategy**:

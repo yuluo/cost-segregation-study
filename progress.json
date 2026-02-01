@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastModified": null,
+    "totalModules": 7,
+    "totalSubsections": 49
+  },
+  "modules": {
+    "01": {
+      "name": "Professional Standards and Ethics",
+      "folderName": "01-professional-standards-ethics",
+      "subsectionCount": 4,
+      "subsections": {
+        "1.1": {
+          "name": "ASCSP Mission",
+          "folderName": "1.1-ascsp-mission",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "1.2": {
+          "name": "Membership Categories",
+          "folderName": "1.2-membership-categories",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "1.3": {
+          "name": "Code of Ethics",
+          "folderName": "1.3-code-of-ethics",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "1.4": {
+          "name": "Minimum Quality Standards",
+          "folderName": "1.4-minimum-quality-standards",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        }
+      }
+    },
+    "02": {
+      "name": "Fundamentals of Cost Segregation",
+      "folderName": "02-fundamentals-cost-segregation",
+      "subsectionCount": 6,
+      "subsections": {
+        "2.1": {
+          "name": "Definition and Core Purpose",
+          "folderName": "2.1-definition-core-purpose",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "2.2": {
+          "name": "Study vs Report",
+          "folderName": "2.2-study-vs-report",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "2.3": {
+          "name": "Asset Classifications",
+          "folderName": "2.3-asset-classifications",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "2.4": {
+          "name": "MACRS Recovery Periods",
+          "folderName": "2.4-macrs-recovery-periods",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "2.5": {
+          "name": "Qualified Property Categories",
+          "folderName": "2.5-qualified-property-categories",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "2.6": {
+          "name": "Bonus Depreciation",
+          "folderName": "2.6-bonus-depreciation",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        }
+      }
+    },
+    "03": {
+      "name": "Tax Law and Depreciation",
+      "folderName": "03-tax-law-depreciation",
+      "subsectionCount": 8,
+      "subsections": {
+        "3.1": {
+          "name": "MACRS System",
+          "folderName": "3.1-macrs-system",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "3.2": {
+          "name": "Recovery Periods",
+          "folderName": "3.2-recovery-periods",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "3.3": {
+          "name": "Depreciation Methods",
+          "folderName": "3.3-depreciation-methods",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "3.4": {
+          "name": "Depreciation Conventions",
+          "folderName": "3.4-depreciation-conventions",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "3.5": {
+          "name": "Bonus Depreciation",
+          "folderName": "3.5-bonus-depreciation",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "3.6": {
+          "name": "Qualified Property",
+          "folderName": "3.6-qualified-property",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "3.7": {
+          "name": "Section 179 Expensing",
+          "folderName": "3.7-section-179-expensing",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "3.8": {
+          "name": "Change in Accounting Method",
+          "folderName": "3.8-change-accounting-method",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        }
+      }
+    },
+    "04": {
+      "name": "Tangible Property Regulations",
+      "folderName": "04-tangible-property-regulations",
+      "subsectionCount": 7,
+      "subsections": {
+        "4.1": {
+          "name": "Overview of Repair Regulations",
+          "folderName": "4.1-overview-repair-regulations",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "4.2": {
+          "name": "Capitalization vs Expense",
+          "folderName": "4.2-capitalization-vs-expense",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "4.3": {
+          "name": "Unit of Property",
+          "folderName": "4.3-unit-of-property",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "4.4": {
+          "name": "BAR Tests",
+          "folderName": "4.4-bar-tests",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "4.5": {
+          "name": "Materials and Supplies",
+          "folderName": "4.5-materials-supplies",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "4.6": {
+          "name": "Safe Harbors",
+          "folderName": "4.6-safe-harbors",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "4.7": {
+          "name": "Dispositions and Partial Dispositions",
+          "folderName": "4.7-dispositions-partial-dispositions",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        }
+      }
+    },
+    "05": {
+      "name": "Methodologies and Engineering",
+      "folderName": "05-methodologies-engineering",
+      "subsectionCount": 10,
+      "subsections": {
+        "5.1": {
+          "name": "Overview of IRS Methodologies",
+          "folderName": "5.1-overview-irs-methodologies",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.2": {
+          "name": "Detailed Engineering with Actual Costs",
+          "folderName": "5.2-detailed-engineering-actual-costs",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.3": {
+          "name": "Detailed Engineering with Cost Estimate",
+          "folderName": "5.3-detailed-engineering-cost-estimate",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.4": {
+          "name": "Residual Estimation",
+          "folderName": "5.4-residual-estimation",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.5": {
+          "name": "Sampling and Modeling",
+          "folderName": "5.5-sampling-modeling",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.6": {
+          "name": "Survey Letter",
+          "folderName": "5.6-survey-letter",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.7": {
+          "name": "Rule of Thumb",
+          "folderName": "5.7-rule-of-thumb",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.8": {
+          "name": "Quantification and Takeoffs",
+          "folderName": "5.8-quantification-takeoffs",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.9": {
+          "name": "Pricing and Adjustments",
+          "folderName": "5.9-pricing-adjustments",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "5.10": {
+          "name": "CSI MasterFormat",
+          "folderName": "5.10-csi-masterformat",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        }
+      }
+    },
+    "06": {
+      "name": "Legal Framework and Court Cases",
+      "folderName": "06-legal-framework-court-cases",
+      "subsectionCount": 7,
+      "subsections": {
+        "6.1": {
+          "name": "Section 1245 vs 1250",
+          "folderName": "6.1-section-1245-vs-1250",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "6.2": {
+          "name": "Whiteco Tests",
+          "folderName": "6.2-whiteco-tests",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "6.3": {
+          "name": "Sole Justification Test",
+          "folderName": "6.3-sole-justification-test",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "6.4": {
+          "name": "HCA v Commissioner",
+          "folderName": "6.4-hca-v-commissioner",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "6.5": {
+          "name": "Scott Paper Electrical Load",
+          "folderName": "6.5-scott-paper-electrical-load",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "6.6": {
+          "name": "Boddie-Noell Look and Feel",
+          "folderName": "6.6-boddie-noell-look-feel",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "6.7": {
+          "name": "Functional Interdependence",
+          "folderName": "6.7-functional-interdependence",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        }
+      }
+    },
+    "07": {
+      "name": "Principal Elements of Quality Report",
+      "folderName": "07-principal-elements-quality-report",
+      "subsectionCount": 7,
+      "subsections": {
+        "7.1": {
+          "name": "Executive Summary",
+          "folderName": "7.1-executive-summary",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "7.2": {
+          "name": "Narrative, Project Scope, and Methodology",
+          "folderName": "7.2-narrative-scope-methodology",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "7.3": {
+          "name": "Detailed Schedules",
+          "folderName": "7.3-detailed-schedules",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "7.4": {
+          "name": "Engineering Detail and Takeoffs",
+          "folderName": "7.4-engineering-detail-takeoffs",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "7.5": {
+          "name": "Tax and Legal Analysis",
+          "folderName": "7.5-tax-legal-analysis",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "7.6": {
+          "name": "Certification of Preparer",
+          "folderName": "7.6-certification-preparer",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        },
+        "7.7": {
+          "name": "Photographic Documentation",
+          "folderName": "7.7-photographic-documentation",
+          "currentScore": 0,
+          "lastUpdated": null,
+          "quizHistory": [],
+          "notes": ""
+        }
+      }
+    }
+  }
+}
