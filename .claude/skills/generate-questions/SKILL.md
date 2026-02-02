@@ -94,7 +94,8 @@ What is your answer? (Enter A, B, C, or D)
 - If incorrect: "✗ Incorrect."
 - Always show: "The correct answer is [X]."
 - Always provide explanation
-- Prompt to continue: "[Press Enter or type 'next' for question N+1]"
+- **Immediately continue to the next question** (no additional user input required)
+- Add a visual separator between questions for readability
 
 **Track**:
 - User's answer for each question
