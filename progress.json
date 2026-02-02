@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-01T21:39:42Z",
+    "lastModified": "2026-02-02T12:00:00Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -54,12 +54,17 @@
           "name": "Definition and Core Purpose",
           "folderName": "2.1-definition-core-purpose",
           "currentScore": 80,
-          "lastUpdated": "2026-02-01T21:39:42Z",
+          "lastUpdated": "2026-02-02T12:00:00Z",
           "quizHistory": [
             {
               "date": "2026-02-01T21:39:42Z",
               "score": 80,
               "quizFile": ".claude/quizzes/quiz-2.1-2026-02-01-213942.md"
+            },
+            {
+              "date": "2026-02-02T12:00:00Z",
+              "score": 0,
+              "quizFile": ".claude/quizzes/quiz-2.1-2026-02-02-120000.md"
             }
           ],
           "notes": ""
