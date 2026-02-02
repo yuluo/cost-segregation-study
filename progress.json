@@ -53,7 +53,7 @@
         "2.1": {
           "name": "Definition and Core Purpose",
           "folderName": "2.1-definition-core-purpose",
-          "currentScore": 80,
+          "currentScore": 90,
           "lastUpdated": "2026-02-02T12:00:00Z",
           "quizHistory": [
             {
@@ -63,7 +63,7 @@
             },
             {
               "date": "2026-02-02T12:00:00Z",
-              "score": 0,
+              "score": 90,
               "quizFile": ".claude/quizzes/quiz-2.1-2026-02-02-120000.md"
             }
           ],
