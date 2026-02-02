@@ -117,20 +117,35 @@ Launching quiz...
 
 # Step 5: Invoke Generate Questions Skill
 
-Launch the quiz for the selected topic using the Bash tool:
+Launch the quiz for the selected topic using the Skill tool.
 
-```bash
-claude skill generate-questions [topic]
+**Method**: Use the Skill tool (NOT Bash) to invoke generate-questions
+
+**Parameters**:
+- skill: "generate-questions"
+- args: The topic number as a string (e.g., "1.1", "2.3", "5.10")
+
+**Example**:
+```
+If selectedTopic = "1.1":
+  Use Skill tool with:
+    skill = "generate-questions"
+    args = "1.1"
+
+If selectedTopic = "5.10":
+  Use Skill tool with:
+    skill = "generate-questions"
+    args = "5.10"
 ```
 
-Example:
-- If selectedTopic = "1.1" → `claude skill generate-questions 1.1`
-- If selectedTopic = "5.10" → `claude skill generate-questions 5.10`
+**Why use Skill tool instead of Bash?**
+- Maintains interactive context (can prompt questions and receive answers)
+- Keeps the quiz session within the same Claude conversation
+- Allows user to see and respond to quiz questions
 
-Error handling:
-- If skill invocation fails, display the error from claude CLI
+**Error handling**:
+- If skill invocation fails, display the error
 - Show: "✗ Error: Could not invoke generate-questions skill"
-- Show: "[Error from claude CLI]"
 - Suggestion: "Ensure generate-questions skill exists"
 
 # Step 6: Post-Invocation Reminder
