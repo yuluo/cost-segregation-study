@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-03T00:33:47Z",
+    "lastModified": "2026-02-03T00:41:17Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -72,8 +72,8 @@
         "2.2": {
           "name": "Study vs Report",
           "folderName": "2.2-study-vs-report",
-          "currentScore": 70,
-          "lastUpdated": "2026-02-03T00:33:47Z",
+          "currentScore": 90,
+          "lastUpdated": "2026-02-03T00:41:17Z",
           "quizHistory": [
             {
               "date": "2026-02-02T03:58:12Z",
@@ -84,6 +84,11 @@
               "date": "2026-02-03T00:33:47Z",
               "score": 70,
               "quizFile": ".claude/quizzes/quiz-2.2-2026-02-03-003347.md"
+            },
+            {
+              "date": "2026-02-03T00:41:17Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-2.2-2026-02-03-004117.md"
             }
           ],
           "notes": ""
