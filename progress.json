@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-04T02:10:55Z",
+    "lastModified": "2026-02-04T13:21:17Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -110,13 +110,18 @@
         "2.4": {
           "name": "MACRS Recovery Periods",
           "folderName": "2.4-macrs-recovery-periods",
-          "currentScore": 40,
-          "lastUpdated": "2026-02-04T02:10:55Z",
+          "currentScore": 70,
+          "lastUpdated": "2026-02-04T13:21:17Z",
           "quizHistory": [
             {
               "date": "2026-02-04T02:10:55Z",
               "score": 40,
               "quizFile": ".claude/quizzes/quiz-2.4-2026-02-04-021055.md"
+            },
+            {
+              "date": "2026-02-04T13:21:17Z",
+              "score": 70,
+              "quizFile": ".claude/quizzes/quiz-2.4-2026-02-04-132117.md"
             }
           ],
           "notes": ""
