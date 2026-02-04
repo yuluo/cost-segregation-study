@@ -51,17 +51,122 @@ Use the Read tool to load the entire README.md content.
 ### 3. Enhance with Web Search
 
 Extract the main topic from the folder name and perform a WebSearch:
-- Query format: "ASCSP cost segregation [topic descriptor] professional standards"
+- **Default query format**: "ASCSP cost segregation [topic descriptor] professional standards"
+- **If enhanced_search_query exists from weakness analysis**: Use that query instead to target weak concepts
 - Example: For `1.1-ascsp-mission` → "ASCSP cost segregation mission professional standards"
 
 Combine the study material content with web search results to inform question generation.
 
+### 3.5. Analyze Quiz History for Weakness Targeting (Optional)
+
+**Only execute this step if quizHistory exists for the current topic in progress.json.**
+
+**Steps**:
+
+1. **Read progress.json** from project root
+2. **Parse the topic** to locate the subsection (e.g., topic `2.4` → `modules["02"].subsections["2.4"]`)
+3. **Check quizHistory length**:
+   - If `quizHistory` is empty or has 0 entries: Skip this step entirely and proceed to Step 4 with standard question generation
+   - If `quizHistory` has 1+ entries: Continue with weakness analysis
+
+4. **Read the most recent quiz file** from quizHistory:
+   - Get the latest entry's `quizFile` path (the last item in the quizHistory array)
+   - Use Read tool to load the quiz markdown file
+   - **Note**: Always analyze only the most recent quiz, not trends across multiple attempts
+
+5. **Parse missed questions** from the quiz file:
+   - Search for lines containing `**Correct Answer**: [A-D] ✗` (incorrect answers)
+   - Extract the question number from the `## Question [N]` header above each incorrect answer
+   - Categorize by difficulty:
+     - Questions 1-3: Recall weaknesses
+     - Questions 4-7: Application weaknesses
+     - Questions 8-10: Synthesis weaknesses
+   - Count incorrect answers in each category
+
+6. **Extract weak concepts**:
+   - Find the Summary section at the end of the quiz file
+   - Locate the line starting with `- **Topics Covered**:`
+   - Parse all concepts listed after the colon (comma-separated)
+   - Cross-reference missed question numbers with concepts from the Topics Covered list
+   - Build a list of 3-5 key weak concepts
+
+7. **Calculate weakness profile**:
+   - Recall weakness: `recall_incorrect_count / 3`
+   - Application weakness: `application_incorrect_count / 4`
+   - Synthesis weakness: `synthesis_incorrect_count / 3`
+   - Identify the weakest category (highest percentage incorrect)
+
+8. **Build focused generation instructions**:
+
+   **If overall score >= 70%** (decent performance):
+   - Keep standard 3-4-3 distribution
+   - Add instruction: "Prioritize these weak concepts in synthesis questions: [weak_concepts_list]"
+   - Enhance web search with: "ASCSP cost segregation [topic] [weak_concept_1] [weak_concept_2]"
+
+   **If overall score 40-69%** (moderate weaknesses):
+   - Adjust distribution based on weakest category:
+     - If recall is weakest: 5 recall, 3 application, 2 synthesis
+     - If application is weakest: 2 recall, 5 application, 3 synthesis
+     - If synthesis is weakest: 2 recall, 3 application, 5 synthesis
+   - Add instruction: "Focus heavily on these weak concepts: [weak_concepts_list]. Create questions that test understanding from multiple angles."
+   - Enhance web search with: "ASCSP cost segregation [topic] [weak_concept_1] [weak_concept_2] detailed explanation examples"
+
+   **If overall score < 40%** (significant weaknesses):
+   - Moderate focus on weakest category (5 questions)
+   - Distribution:
+     - If recall is weakest: 5 recall, 3 application, 2 synthesis
+     - If application is weakest: 2 recall, 5 application, 3 synthesis
+     - If synthesis is weakest: 2 recall, 3 application, 5 synthesis
+   - Add instruction: "Generate questions that reinforce fundamental understanding of: [weak_concepts_list]. Use clear, educational distractors that address common misconceptions."
+   - Enhance web search with: "ASCSP cost segregation [topic] [weak_concept_1] fundamentals basics examples practice"
+
+   **If overall score = 100%** (perfect performance):
+   - Heavy synthesis focus for advanced practice
+   - Distribution: 1 recall, 2 application, 7 synthesis
+   - Add instruction: "Generate advanced synthesis questions that combine multiple concepts and test edge cases. Challenge the learner with complex scenarios."
+   - Enhance web search with: "ASCSP cost segregation [topic] advanced scenarios edge cases complex examples"
+
+9. **Store the focused generation profile**:
+   - Create variables to pass to Step 4:
+     - `difficulty_distribution`: Array like [3, 4, 3] or [5, 3, 2]
+     - `focus_concepts`: List of weak concepts to emphasize
+     - `generation_instruction`: Custom instruction text to add
+     - `enhanced_search_query`: Modified web search query
+
+**Error Handling**:
+- If progress.json doesn't exist: Skip weakness analysis, use standard generation
+- If quizFile path is invalid or file doesn't exist: Skip weakness analysis, use standard generation
+- If quiz file format is unexpected: Log warning, skip weakness analysis, use standard generation
+- Always have fallback to standard question generation
+
+**User Communication**:
+If weakness analysis succeeds, display:
+```
+📊 Analyzing previous quiz performance...
+✓ Found [N] quiz(es) for this topic
+✓ Focusing on weak areas: [list 2-3 key weak concepts]
+✓ Adjusting difficulty distribution: [recall_count] recall, [app_count] application, [synth_count] synthesis
+```
+
+If no history found:
+```
+📚 No previous quiz history found - generating standard quiz
+```
+
 ### 4. Generate 10 Multiple-Choice Questions
 
-Create exactly 10 questions with this difficulty distribution:
-- **Questions 1-3**: Concept recall (definitions, key facts, terminology)
-- **Questions 4-7**: Application/analysis (scenarios, "what would you do", practical situations)
-- **Questions 8-10**: Synthesis (combining concepts, edge cases, critical thinking)
+**Use the difficulty distribution determined in Step 3.5** (or default [3, 4, 3] if no weakness analysis):
+
+- **Recall questions** (default: Questions 1-3): Concept recall (definitions, key facts, terminology)
+- **Application questions** (default: Questions 4-7): Application/analysis (scenarios, "what would you do", practical situations)
+- **Synthesis questions** (default: Questions 8-10): Synthesis (combining concepts, edge cases, critical thinking)
+
+**If focus_concepts were identified in Step 3.5**: Prioritize those concepts in questions. Ensure weak concepts appear in:
+- Question content (directly testing the weak concept)
+- Distractors (addressing misconceptions about the weak concept)
+- Explanations (providing deeper understanding of the weak concept)
+
+**If generation_instruction was created in Step 3.5**: Follow that custom instruction for question generation approach.
 
 **Question Format**:
 - Each question has exactly 4 answer choices: A, B, C, D
@@ -191,8 +296,59 @@ After saving the quiz results, automatically update `progress.json` to track lea
        "quizFile": ".claude/quizzes/quiz-1.1-2026-02-01-143022.md"
      }
      ```
-5. **Update metadata**: Set `metadata.lastModified` to current timestamp
-6. **Write updated progress.json** back to file
+5. **Analyze Quiz Performance and Generate Notes**:
+   - Read the quiz file that was just saved
+   - Parse the quiz results to extract:
+     - Questions 1-3 (recall): Count correct/incorrect
+     - Questions 4-7 (application): Count correct/incorrect
+     - Questions 8-10 (synthesis): Count correct/incorrect
+     - Topics covered from Summary section (line starting with "- **Topics Covered**:")
+     - Map incorrect questions to their concepts from Topics Covered list
+   - Check quizHistory length to determine if this is first quiz or has previous attempts
+   - Generate notes string using this format:
+
+   **If first quiz (quizHistory has only 1 entry after adding current quiz)**:
+   ```
+   [Performance level] ([score]/100). Strengths: [difficulty breakdown + strong concepts]. Weaknesses: [difficulty breakdown + missed concepts].
+   ```
+
+   **If previous quiz exists (quizHistory has 2+ entries)**:
+   ```
+   [Trend phrase] from [prev_score]→[current_score]. Strengths: [difficulty breakdown + strong concepts]. Weaknesses: [difficulty breakdown + missed concepts].
+   ```
+
+   **Performance level mapping** (90-100: "Strong performance", 80-89: "Good performance", 70-79: "Moderate performance", 60-69: "Fair performance", 0-59: "Needs improvement")
+
+   **Trend phrase mapping**:
+   - If score increased: "Improved +[diff]"
+   - If score decreased: "Declined -[diff]"
+   - If score same: "Maintained"
+
+   **Difficulty breakdown format**:
+   - 3/3 or 4/4 correct: "Excellent [area]"
+   - 2/3 or 3/4 correct: "Good/Solid [area]"
+   - 1/3 or 2/4 correct: "Weak [area]"
+   - 0/3 or 0-1/4 correct: "Poor [area]"
+
+   **Concept selection**:
+   - Parse "Topics Covered" from Summary section by splitting on commas
+   - For strengths: Select 2-4 key concepts from correctly answered questions
+   - For weaknesses: Select 2-4 key concepts from incorrectly answered questions
+   - Map questions to concepts based on question number and Topics Covered order
+   - Keep total note length to ~200-250 characters
+
+   **Error handling**:
+   - If quiz file cannot be read: Set notes to "Score: [X]/100"
+   - If parsing fails: Set notes to "Score: [X]/100 - analysis unavailable"
+   - If Topics Covered missing: Use difficulty breakdown only
+   - Always populate notes with at least minimal information
+
+6. **Update the notes field**:
+   - Set `notes` to the generated analysis string from previous step
+   - This replaces any existing notes content
+
+7. **Update metadata**: Set `metadata.lastModified` to current timestamp
+8. **Write updated progress.json** back to file
 
 **Important**:
 - Use Read tool to load progress.json
@@ -210,6 +366,7 @@ After saving the quiz results, automatically update `progress.json` to track lea
 After updating progress.json, display:
 ```
 ✓ Progress updated: [Topic] score saved as [score]/100
+✓ Performance notes: [First 80 chars of notes]...
 ```
 
 ## Implementation Notes
