@@ -1,5 +1,7 @@
 # Bonus Depreciation
 
+**Last Updated**: 2026-02-05 (OBBBA 2025 - Permanent 100% bonus)
+
 ## Definition
 
 Bonus depreciation allows immediate expensing of a large percentage of an asset's cost. The deduction is taken in the first year the asset is placed in service as an additional deduction on top of regular depreciation.
@@ -29,19 +31,28 @@ Generally applies to assets with recovery period of **20 years or less**.
 - Used as economic stimulus tool during recessions
 - Subject to sunset provisions requiring periodic renewal
 
-### Recent History
+### Current Law: Permanent 100% Bonus Depreciation
 
-**100% Bonus Depreciation:**
+**One Big Beautiful Bill Act (OBBBA) of 2025:**
+- Property acquired after January 19, 2025: **100% permanent bonus depreciation**
+- Applies to new property with recovery periods of 20 years or less
+- No phase-out or sunset provisions
+- Provides certainty for long-term tax planning
+
+### Historical Context
+
+**Original 100% Bonus Period:**
 - Assets placed in service: September 28, 2017 through December 31, 2022
 - Allowed immediate full expensing of qualifying property
 
-### Phase-Out Schedule
-
+**Temporary Phase-Out Schedule (Superseded):**
 - **2023**: 80% bonus depreciation
 - **2024**: 60% bonus depreciation
-- **2025**: 40% bonus depreciation
-- **2026**: 20% bonus depreciation
-- **2027 and beyond**: 0% (unless extended by legislation)
+- **2025**: 40% bonus (for property acquired before Jan 19, 2025)
+- **2026**: 20% bonus (for property acquired before Jan 19, 2025)
+- **2027+**: 0% (for property acquired before Jan 19, 2025)
+
+**Note**: The phase-out schedule above only applies to property acquired before the OBBBA effective date of January 19, 2025.
 
 ## Impact on Cost Segregation
 

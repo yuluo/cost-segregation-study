@@ -1,5 +1,7 @@
 # Qualified Property (QIP, QLI, QRP, QRIP)
 
+**Last Updated**: 2026-02-05 (OBBBA 2025 - Permanent 100% bonus)
+
 ## Overview
 
 Special categories of property often qualify for accelerated 15-year lives or bonus depreciation. These qualified property classifications provide more favorable tax treatment than standard 39-year commercial property depreciation.
@@ -16,7 +18,7 @@ Qualified Improvement Property represents interior improvements to non-residenti
 
 **Tax Treatment:**
 - 15-year recovery period under MACRS
-- Eligible for bonus depreciation (subject to phase-out)
+- Eligible for permanent 100% bonus depreciation (for property acquired after January 19, 2025, per OBBBA 2025)
 
 ## Historical Categories
 

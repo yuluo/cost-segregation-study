@@ -1,5 +1,7 @@
 # Tax and Legal Analysis
 
+**Last Updated**: 2026-02-05 (OBBBA 2025 - Permanent 100% bonus)
+
 ## Introduction
 
 A quality cost segregation study does not simply reallocate costs from one depreciation category to another; it provides comprehensive legal and tax analysis justifying why specific components qualify for accelerated depreciation treatment. This legal analysis demonstrates technical competence in tax law, supports classification positions with statutory and case law authority, serves as critical documentation for audit defense, and distinguishes a professional quality study from a superficial analysis.
@@ -143,7 +145,8 @@ Section 263(a) and the Tangible Property Regulations govern capitalization:
 
 **§168(k) - Bonus Depreciation:**
 - First-year bonus depreciation allowance
-- 100% through 2022, phasing down thereafter
+- **Current Law (OBBBA 2025)**: Permanent 100% for property acquired after January 19, 2025
+- **Historical**: 100% through 2022, then phased down for property acquired before January 19, 2025
 - Applies to new and used qualified property
 - Significantly enhances cost segregation benefits
 - Property must be qualified property with recovery period of 20 years or less

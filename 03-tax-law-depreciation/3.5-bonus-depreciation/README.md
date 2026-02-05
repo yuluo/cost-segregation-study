@@ -1,5 +1,7 @@
 # Bonus Depreciation
 
+**Last Updated**: 2026-02-05 (OBBBA 2025 - Permanent 100% bonus)
+
 ## Definition
 
 Bonus depreciation allows for the immediate expensing of a percentage of an asset's cost in its first year of service, before regular MACRS depreciation is calculated. This powerful tax incentive provides significant front-loaded deductions for qualifying property.
@@ -22,14 +24,29 @@ The Tax Cuts and Jobs Act significantly expanded bonus depreciation:
 **Effective Dates:**
 - Applies to property placed in service after September 27, 2017
 
-### Phase-Out Schedule
+### Current Law (2025 Forward): Permanent 100% Bonus Depreciation
 
-Property placed in service:
+**One Big Beautiful Bill Act (OBBBA) of 2025:**
+- Property acquired after January 19, 2025: **100% bonus depreciation** (permanent)
+- Qualifying property: New property with recovery period of 20 years or less
+- IRC §168(k) as amended by OBBBA 2025
+- No phase-out schedule applies to property acquired after this date
+
+**Practical Implications for Cost Segregation:**
+- Studies completed after January 19, 2025 receive full 100% bonus on qualifying assets
+- Timing of property acquisition (not just placement in service) now critical
+- Maximum first-year deduction benefits restored permanently
+
+### Historical Phase-Out Schedule (2023-2024)
+
+**Note: The following schedule was superseded by OBBBA 2025 for property acquired after January 19, 2025.**
+
+Property placed in service before OBBBA effective date:
 - **2023:** 80% bonus depreciation
 - **2024:** 60% bonus depreciation
-- **2025:** 40% bonus depreciation
-- **2026:** 20% bonus depreciation
-- **2027 and beyond:** 0% (unless extended by legislation)
+- **2025:** 40% bonus depreciation (for property acquired before Jan 19, 2025)
+- **2026:** 20% bonus depreciation (for property acquired before Jan 19, 2025)
+- **2027 and beyond:** 0% (for property acquired before Jan 19, 2025)
 
 ## Impact on Cost Segregation
 

@@ -8,6 +8,12 @@ tools: Read, Grep, Glob, WebSearch, Write, Bash
 
 This skill creates and conducts an interactive 10-question multiple-choice quiz based on cost segregation study materials.
 
+## Maintenance Schedule
+- **Quarterly Review**: Check for tax law changes (bonus depreciation, recovery periods, QIP definitions)
+- **Sources**: IRS.gov, Tax Foundation, AICPA Tax Section
+- **Last Review**: 2026-02-05 (OBBBA 2025 updates applied)
+- **Next Review**: 2026-05-01
+
 ## Available Topics
 
 ```
@@ -51,11 +57,53 @@ Use the Read tool to load the entire README.md content.
 ### 3. Enhance with Web Search
 
 Extract the main topic from the folder name and perform a WebSearch:
-- **Default query format**: "ASCSP cost segregation [topic descriptor] professional standards"
+- **Default query format**: "ASCSP cost segregation [topic descriptor] professional standards 2025 2026"
 - **If enhanced_search_query exists from weakness analysis**: Use that query instead to target weak concepts
-- Example: For `1.1-ascsp-mission` → "ASCSP cost segregation mission professional standards"
+- Example: For `1.1-ascsp-mission` → "ASCSP cost segregation mission professional standards 2025 2026"
+- **Note**: Always include "2025 2026" in queries to ensure current tax law information
 
 Combine the study material content with web search results to inform question generation.
+
+### 3.2. Legislative Currency Check (Tax Law Topics Only)
+
+**Execute this step only if the topic is in modules 02, 03, 04, or 06** (tax-related content).
+
+**Steps**:
+
+1. **Extract tax law references** from study material and web search results:
+   - Bonus depreciation rates and phase-out schedules
+   - IRC section citations (§168(k), §179, §1245, §1250)
+   - Qualified property definitions
+   - Recovery period classifications
+
+2. **Perform targeted verification search**:
+   - Query format: "IRS [specific provision] 2025 2026 current law"
+   - Example: "IRS bonus depreciation §168(k) 2025 2026 current law"
+   - Focus on: IRS.gov, Tax Foundation, AICPA sources
+   - Look for One Big Beautiful Bill Act (OBBBA) 2025 references
+
+3. **Flag discrepancies**:
+   - If study material shows phase-out schedule (20% 2026, 0% 2027+)
+   - If web search confirms different current law (e.g., permanent 100%)
+   - Create flag: `outdated_law_detected = True`
+   - Store: `current_law_summary` (brief description from search)
+
+4. **Adjust question generation**:
+   - **If no discrepancy**: Proceed normally to Step 3.5
+   - **If outdated_law_detected**:
+     - Generate 2 questions testing current law (using web search results)
+     - Generate 1 question testing historical context (noting it's superseded)
+     - Add to each explanation: "[Note: As of 2025, current law is: {current_law_summary}]"
+     - Flag study material for review in quiz summary
+
+5. **Add to quiz summary** (if discrepancy found):
+   - New section: "⚠️ Legislative Update Needed"
+   - List: Topic, outdated provision, current law reference
+   - Recommendation: "Study material requires update to reflect 2025 legislation"
+
+**Error Handling**:
+- If verification search fails: Log warning, proceed with study material content
+- If IRS.gov sources are ambiguous: Use study material, note uncertainty in quiz
 
 ### 3.5. Analyze Quiz History for Weakness Targeting (Optional)
 
