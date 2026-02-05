@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-05T12:42:54Z",
+    "lastModified": "2026-02-05T15:14:43Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -110,8 +110,8 @@
         "2.4": {
           "name": "MACRS Recovery Periods",
           "folderName": "2.4-macrs-recovery-periods",
-          "currentScore": 70,
-          "lastUpdated": "2026-02-05T12:42:54Z",
+          "currentScore": 90,
+          "lastUpdated": "2026-02-05T15:14:43Z",
           "quizHistory": [
             {
               "date": "2026-02-04T02:10:55Z",
@@ -132,9 +132,14 @@
               "date": "2026-02-05T12:42:54Z",
               "score": 70,
               "quizFile": ".claude/quizzes/quiz-2.4-2026-02-05-124152.md"
+            },
+            {
+              "date": "2026-02-05T15:14:43Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-2.4-2026-02-05-151327.md"
             }
           ],
-          "notes": "Declined -10 from 80→70. Strengths: Good recall, solid application, Form 3115. Weaknesses: QIP 15-yr classification, mid-quarter 40% rule, bonus timing."
+          "notes": "Improved +20 from 70→90. Strengths: Excellent recall, excellent application (QIP 15-yr, mid-quarter 40%), solid synthesis. Weaknesses: Prior-year bonus rates."
         },
         "2.5": {
           "name": "Qualified Property Categories",
