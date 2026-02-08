@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-08T20:15:33Z",
+    "lastModified": "2026-02-08T20:35:38Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -212,10 +212,16 @@
         "3.3": {
           "name": "Depreciation Methods",
           "folderName": "3.3-depreciation-methods",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 90,
+          "lastUpdated": "2026-02-08T20:35:38Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-08T20:35:38Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-3.3-2026-02-08-203538.md"
+            }
+          ],
+          "notes": "Strong performance (90/100). Strengths: Excellent recall, excellent synthesis (OBBBA strategy, future risks), solid application (200% DDB, 150% DB, Form 3115, automatic switch). Weaknesses: Real property straight-line requirements."
         },
         "3.4": {
           "name": "Depreciation Conventions",
