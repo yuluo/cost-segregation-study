@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-06T01:21:39Z",
+    "lastModified": "2026-02-07T14:49:03Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -158,10 +158,16 @@
         "2.6": {
           "name": "Bonus Depreciation",
           "folderName": "2.6-bonus-depreciation",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 70,
+          "lastUpdated": "2026-02-07T14:49:03Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-07T14:49:03Z",
+              "score": 70,
+              "quizFile": ".claude/quizzes/quiz-2.6-2026-02-07-144903.md"
+            }
+          ],
+          "notes": "Moderate performance (70/100). Strengths: Excellent synthesis, good recall (OBBBA 100% permanent, qualifying property). Weaknesses: Weak application (Jan 19 date specifics, timing), bonus definition."
         }
       }
     },
