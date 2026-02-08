@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-07T14:49:03Z",
+    "lastModified": "2026-02-08T19:06:15Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -158,16 +158,21 @@
         "2.6": {
           "name": "Bonus Depreciation",
           "folderName": "2.6-bonus-depreciation",
-          "currentScore": 70,
-          "lastUpdated": "2026-02-07T14:49:03Z",
+          "currentScore": 85,
+          "lastUpdated": "2026-02-08T18:43:42Z",
           "quizHistory": [
             {
               "date": "2026-02-07T14:49:03Z",
               "score": 70,
               "quizFile": ".claude/quizzes/quiz-2.6-2026-02-07-144903.md"
+            },
+            {
+              "date": "2026-02-08T18:43:42Z",
+              "score": 80,
+              "quizFile": ".claude/quizzes/quiz-2.6-2026-02-08-184342.md"
             }
           ],
-          "notes": "Moderate performance (70/100). Strengths: Excellent synthesis, good recall (OBBBA 100% permanent, qualifying property). Weaknesses: Weak application (Jan 19 date specifics, timing), bonus definition."
+          "notes": "Improved +10 from 70→80. Strengths: Excellent recall, excellent synthesis (strategic planning, legislative risk), good application (cost seg timing, tax calculations). Weaknesses: Weak application (binding contract date, 10% construction rule)."
         }
       }
     },
@@ -179,10 +184,16 @@
         "3.1": {
           "name": "MACRS System",
           "folderName": "3.1-macrs-system",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 85,
+          "lastUpdated": "2026-02-08T18:58:06Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-08T18:58:06Z",
+              "score": 80,
+              "quizFile": ".claude/quizzes/quiz-3.1-2026-02-08-185806.md"
+            }
+          ],
+          "notes": "Good performance (80/100). Strengths: Excellent recall, excellent synthesis (component analysis, tax policy rationale). Weaknesses: Weak application (leases to tax-exempt entities, predominant foreign use)."
         },
         "3.2": {
           "name": "Recovery Periods",
