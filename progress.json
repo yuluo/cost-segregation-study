@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-08T19:06:15Z",
+    "lastModified": "2026-02-08T20:15:33Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -198,10 +198,16 @@
         "3.2": {
           "name": "Recovery Periods",
           "folderName": "3.2-recovery-periods",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 90,
+          "lastUpdated": "2026-02-08T20:15:33Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-08T20:15:33Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-3.2-2026-02-08-201533.md"
+            }
+          ],
+          "notes": "Strong performance (90/100). Strengths: Excellent application, excellent synthesis (property classifications, Table B-1/B-2, mixed-use allocation), good recall. Weaknesses: Revenue Procedure 87-56 identification."
         },
         "3.3": {
           "name": "Depreciation Methods",
