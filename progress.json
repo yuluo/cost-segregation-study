@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-08T20:35:38Z",
+    "lastModified": "2026-02-09T17:48:20Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -226,10 +226,21 @@
         "3.4": {
           "name": "Depreciation Conventions",
           "folderName": "3.4-depreciation-conventions",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 100,
+          "lastUpdated": "2026-02-09T17:48:20Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-09T12:31:42Z",
+              "score": 70,
+              "quizFile": ".claude/quizzes/quiz-3.4-2026-02-09-123142.md"
+            },
+            {
+              "date": "2026-02-09T17:48:20Z",
+              "score": 100,
+              "quizFile": ".claude/quizzes/quiz-3.4-2026-02-09-174820.md"
+            }
+          ],
+          "notes": "Improved +30 from 70→100. Strengths: Excellent recall (half-year basics, 40% test), excellent application (threshold calculations, year-end timing), excellent synthesis (cost seg interactions, strategic planning). Perfect mastery demonstrated."
         },
         "3.5": {
           "name": "Bonus Depreciation",
