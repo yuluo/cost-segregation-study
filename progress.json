@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-09T19:44:42Z",
+    "lastModified": "2026-02-09T20:09:30Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -259,10 +259,16 @@
         "3.6": {
           "name": "Qualified Property",
           "folderName": "3.6-qualified-property",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 90,
+          "lastUpdated": "2026-02-09T20:09:30Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-09T20:09:30Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-3.6-2026-02-09-200930.md"
+            }
+          ],
+          "notes": "Strong performance (90/100). Strengths: Excellent recall (IRC §168(e)(6), exclusions, 15-yr recovery), solid application (QIP identification, timing requirements, acquisition controls bonus), excellent synthesis (strategic timing, elect-out analysis, legislative risk). Weaknesses: Historical TCJA consolidation (QLI/QRP/QRIP)."
         },
         "3.7": {
           "name": "Section 179 Expensing",
