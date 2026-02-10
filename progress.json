@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-09T20:46:45Z",
+    "lastModified": "2026-02-10T14:48:00Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -287,10 +287,16 @@
         "3.8": {
           "name": "Change in Accounting Method",
           "folderName": "3.8-change-accounting-method",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 85,
+          "lastUpdated": "2026-02-10T13:32:44Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-10T13:32:44Z",
+              "score": 85,
+              "quizFile": ".claude/quizzes/quiz-3.8-2026-02-10-133244.md"
+            }
+          ],
+          "notes": "Good performance (85/100). Strengths: Excellent recall (Form 3115, 481(a), automatic consent), solid application (look-back mechanics, timing), good synthesis (income optimization, client-specific planning). Weaknesses: DCN selection (residential vs nonresidential), placed-in-service date bonus rules."
         }
       }
     },
