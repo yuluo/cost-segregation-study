@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-10T14:48:00Z",
+    "lastModified": "2026-02-10T19:24:19Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -308,10 +308,16 @@
         "4.1": {
           "name": "Overview of Repair Regulations",
           "folderName": "4.1-overview-repair-regulations",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 90,
+          "lastUpdated": "2026-02-10T19:24:19Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-10T19:24:19Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-4.1-2026-02-10-192419.md"
+            }
+          ],
+          "notes": "Strong performance (90/100). Strengths: Excellent recall (TD 9636, purpose, effective date), solid application (routine repairs, HVAC restoration, safe harbors), excellent synthesis (cost seg integration, Form 3115, legislative planning). Weaknesses: Multi-cost capitalization analysis (roof/wing vs HVAC servicing)."
         },
         "4.2": {
           "name": "Capitalization vs Expense",
