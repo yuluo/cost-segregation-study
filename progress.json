@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-09T20:09:30Z",
+    "lastModified": "2026-02-09T20:46:45Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -237,7 +237,7 @@
             {
               "date": "2026-02-09T17:48:20Z",
               "score": 100,
-              "quizFile": ".claude/quizzes/quiz-3.4-2026-02-09-174820.md"
+              "quizFile": ".claude/quizzes/quiz-3.4-2026-09-174820.md"
             }
           ],
           "notes": "Improved +30 from 70→100. Strengths: Excellent recall (half-year basics, 40% test), excellent application (threshold calculations, year-end timing), excellent synthesis (cost seg interactions, strategic planning). Perfect mastery demonstrated."
@@ -273,10 +273,16 @@
         "3.7": {
           "name": "Section 179 Expensing",
           "folderName": "3.7-section-179-expensing",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 90,
+          "lastUpdated": "2026-02-09T20:46:45Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-09T20:46:45Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-3.7-2026-02-09-204645.md"
+            }
+          ],
+          "notes": "Strong performance (90/100). Strengths: Good recall, excellent application (phase-out calculations, taxable income limitation, HVAC eligibility), excellent synthesis (strategic planning, IRC §163(j), permanence). Weaknesses: OBBBA 2025 limits ($2.5M/$4M)."
         },
         "3.8": {
           "name": "Change in Accounting Method",
