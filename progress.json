@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-10T19:24:19Z",
+    "lastModified": "2026-02-11T22:32:29Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -322,10 +322,16 @@
         "4.2": {
           "name": "Capitalization vs Expense",
           "folderName": "4.2-capitalization-vs-expense",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 90,
+          "lastUpdated": "2026-02-11T22:32:29Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-11T22:32:29Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-4.2-2026-02-11-223229.md"
+            }
+          ],
+          "notes": "Strong performance (90/100). Strengths: Excellent application (HVAC compressor, adaptation test, casualty restoration, betterment factors), excellent synthesis (multi-scenario analysis, BAR framework). Weaknesses: Good recall (IRC §263(a) identification)."
         },
         "4.3": {
           "name": "Unit of Property",
