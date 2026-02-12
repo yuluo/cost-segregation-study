@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-11T22:32:29Z",
+    "lastModified": "2026-02-12T13:25:31Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -336,10 +336,16 @@
         "4.3": {
           "name": "Unit of Property",
           "folderName": "4.3-unit-of-property",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 70,
+          "lastUpdated": "2026-02-12T13:25:31Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-12T13:25:31Z",
+              "score": 70,
+              "quizFile": ".claude/quizzes/quiz-4.3-2026-02-12-132531.md"
+            }
+          ],
+          "notes": "Moderate performance (70/100). Strengths: Excellent application, excellent synthesis. Weaknesses: Weak recall (UOP definition, nine enumerated systems)."
         },
         "4.4": {
           "name": "BAR Tests",
