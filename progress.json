@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-13T02:01:39Z",
+    "lastModified": "2026-02-13T02:28:12Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -374,10 +374,16 @@
         "4.5": {
           "name": "Materials and Supplies",
           "folderName": "4.5-materials-supplies",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 70,
+          "lastUpdated": "2026-02-13T02:28:12Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-13T02:28:12Z",
+              "score": 70,
+              "quizFile": ".claude/quizzes/quiz-4.5-2026-02-13-022812.md"
+            }
+          ],
+          "notes": "Moderate performance (70/100). Strengths: Good recall (M&S categories, rotable definition), solid application (per-unit logic, rotable timing, strategic compliance), good synthesis (Form 3115 changes). Weaknesses: Threshold criteria (12-month/$200), functional unit determination (tile vs box), either/or logic acknowledgment."
         },
         "4.6": {
           "name": "Safe Harbors",
