@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-13T01:45:02Z",
+    "lastModified": "2026-02-13T02:01:39Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -360,10 +360,16 @@
         "4.4": {
           "name": "BAR Tests",
           "folderName": "4.4-bar-tests",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 90,
+          "lastUpdated": "2026-02-13T02:01:39Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-13T02:01:39Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-4.4-2026-02-13-020139.md"
+            }
+          ],
+          "notes": "Strong performance (90/100). Strengths: Excellent recall (BAR acronym, Betterment criteria, Adaptation examples), excellent synthesis (multiple activities, casualty loss, BAR principle). Weaknesses: Good application (Betterment vs Restoration for operational defects)."
         },
         "4.5": {
           "name": "Materials and Supplies",
