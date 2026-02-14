@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-14T16:17:26Z",
+    "lastModified": "2026-02-14T18:45:33Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -417,10 +417,16 @@
         "4.7": {
           "name": "Dispositions and Partial Dispositions",
           "folderName": "4.7-dispositions-partial-dispositions",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 90,
+          "lastUpdated": "2026-02-14T18:45:33Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-14T18:45:33Z",
+              "score": 90,
+              "quizFile": ".claude/quizzes/quiz-4.7-2026-02-14-184533.md"
+            }
+          ],
+          "notes": "Strong performance (90/100). Strengths: Excellent recall, solid application (Form 4797, calculations), excellent synthesis (cost seg, bonus strategy). Weaknesses: Amended return procedures (statute of limitations)."
         }
       }
     },
