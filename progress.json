@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-13T12:39:14Z",
+    "lastModified": "2026-02-14T13:01:22Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -393,10 +393,21 @@
         "4.6": {
           "name": "Safe Harbors",
           "folderName": "4.6-safe-harbors",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 60,
+          "lastUpdated": "2026-02-14T13:01:22Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-13T15:46:51Z",
+              "score": 80,
+              "quizFile": ".claude/quizzes/quiz-4.6-2026-02-13-154651.md"
+            },
+            {
+              "date": "2026-02-14T13:01:22Z",
+              "score": 60,
+              "quizFile": ".claude/quizzes/quiz-4.6-2026-02-14-130122.md"
+            }
+          ],
+          "notes": "Declined -20 from 80→60. Strengths: Good synthesis (combining safe harbors, policy rationale, bonus strategy). Weaknesses: Poor recall (10-year rule, thresholds), poor application (all-or-nothing, OR test, annual election)."
         },
         "4.7": {
           "name": "Dispositions and Partial Dispositions",
