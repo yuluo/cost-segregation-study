@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-18T14:15:49Z",
+    "lastModified": "2026-02-18T22:42:19Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -550,10 +550,16 @@
         "5.9": {
           "name": "Pricing and Adjustments",
           "folderName": "5.9-pricing-adjustments",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 85,
+          "lastUpdated": "2026-02-18T22:42:19Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-18T22:42:19Z",
+              "score": 85,
+              "quizFile": ".claude/quizzes/quiz-5.9-2026-02-18-224219.md"
+            }
+          ],
+          "notes": "Good performance (85/100). Strengths: Excellent recall (three adjustments, allocation methods), excellent application (time adjustment, soft cost allocation, reconciliation formula, location errors). Weaknesses: Good recall (soft cost vs. hard cost distinction), good application (location factor multiplication)."
         },
         "5.10": {
           "name": "CSI MasterFormat",
