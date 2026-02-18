@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-18T12:28:47Z",
+    "lastModified": "2026-02-18T14:15:49Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -536,10 +536,16 @@
         "5.8": {
           "name": "Quantification and Takeoffs",
           "folderName": "5.8-quantification-takeoffs",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 85,
+          "lastUpdated": "2026-02-18T14:15:49Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-18T14:15:49Z",
+              "score": 85,
+              "quizFile": ".claude/quizzes/quiz-5.8-2026-02-18-141549.md"
+            }
+          ],
+          "notes": "Good performance (85/100). Strengths: Excellent application (units of measure, field verification, scale calibration, quality controls), good synthesis. Weaknesses: Good recall (take-off step order), good synthesis (BIM still requires quality controls)."
         },
         "5.9": {
           "name": "Pricing and Adjustments",
