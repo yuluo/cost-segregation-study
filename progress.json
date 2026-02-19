@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-18T22:42:19Z",
+    "lastModified": "2026-02-19T00:00:00Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -564,10 +564,16 @@
         "5.10": {
           "name": "CSI MasterFormat",
           "folderName": "5.10-csi-masterformat",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 60,
+          "lastUpdated": "2026-02-19T00:00:00Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-19T00:00:00Z",
+              "score": 60,
+              "quizFile": ".claude/quizzes/quiz-5.10-2026-02-19-000000.md"
+            }
+          ],
+          "notes": "Fair performance (60/100). Strengths: Excellent synthesis (transition guidance, process slab distinctions, MasterFormat benefits), good application (RS Means reconciliation). Weaknesses: Poor recall (16 vs 50 divisions, Div 23 HVAC), weak application (Div 15→22/23 mapping, Div 26 electrical)."
         }
       }
     },
