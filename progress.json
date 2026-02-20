@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastModified": "2026-02-19T00:00:00Z",
+    "lastModified": "2026-02-20T00:00:00Z",
     "totalModules": 7,
     "totalSubsections": 49
   },
@@ -585,10 +585,16 @@
         "6.1": {
           "name": "Section 1245 vs 1250",
           "folderName": "6.1-section-1245-vs-1250",
-          "currentScore": 0,
-          "lastUpdated": null,
-          "quizHistory": [],
-          "notes": ""
+          "currentScore": 70,
+          "lastUpdated": "2026-02-20T00:00:00Z",
+          "quizHistory": [
+            {
+              "date": "2026-02-20T00:00:00Z",
+              "score": 70,
+              "quizFile": ".claude/quizzes/quiz-6.1-2026-02-20-000000.md"
+            }
+          ],
+          "notes": "Moderate performance (70/100). Strengths: Excellent synthesis (recapture trade-off, time value analysis, component documentation), solid application (tangible vs structural property, process-specific systems). Weaknesses: Poor recall (§1250 straight-line requirement, §1245 ordinary income recapture, bonus depreciation recapture)."
         },
         "6.2": {
           "name": "Whiteco Tests",
